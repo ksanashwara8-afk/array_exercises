@@ -1,0 +1,7 @@
+function findLastIndex(array, element) {
+    for (i = array.length - 1; i >= 0; i--) {
+        if (array[i] === element) return i;
+    }
+    return -1;
+}
+console.log(findLastIndex(["hello", "apple", "tea", "coffee", "tea"], "tea"));
