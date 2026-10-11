@@ -5,4 +5,4 @@ function mapLength(array) {
     }
     return count;
 }
-console.log(mapLength(["Hello", "apple", "hi", ""]));
+console.log(mapLength(["Hello", "apple", "h", ""]));
