@@ -1,6 +1,6 @@
 function mapLength(array) {
     const count = [];
-    for (i = 0; i < array.length; i++) {
+    for (let i = 0; i < array.length; i++) {
         count.push(array[i].length);
     }
     return count;

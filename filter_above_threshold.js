@@ -1,6 +1,6 @@
 function filterAbove(array, threshold) {
     const count = [];
-    for (i = 0; i < array.length; i++) {
+    for (let i = 0; i < array.length; i++) {
         if (array[i] > threshold) count.push(array[i]);
     }
     return count;

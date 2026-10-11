@@ -1,6 +1,6 @@
 function findStudents(array) {
     const names = [];
-    for (i = 0; i < array.length; i++) {
+    for (let i = 0; i < array.length; i++) {
         if (array[i].marks > 70) names.push(array[i].name);
     }
     return names;
